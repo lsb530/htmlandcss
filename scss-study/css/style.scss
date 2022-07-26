@@ -1,0 +1,8 @@
+@import 'base/color-variable';
+
+.box {
+  background-color: darksalmon;
+  h2 {
+    color: $blue;
+  }
+}

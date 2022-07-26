@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML 문서</title>
+    <style>
+        p > span {
+            color: darkgoldenrod;
+        }
+        .text + p {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>선택자 연습하기</h1>
+    <p>1번 문단입니다 그냥 태그</p>
+    <p class="text">2번 문단입니다 클래스 있음</p>
+    <p id="unique">3번 문단입니다 아이디 있음</p>
+    <p class="text">4번 문단입니다 클래스 있음</p>
+    <p id="test">4번 문단입니다 클래스 있음</p>
+    <p>6번 문단입니다 <span>스판 있는</span> 태그</p>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>그리드 레이아웃</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+          margin: 0;
+      }
+      ul {
+          padding: 0;
+          list-style-type: none;
+          border: 5px solid teal;
+      }
+
+      li {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: beige;
+          border: 5px solid tomato;
+          border-radius: 8px;
+      }
+
+      .container {
+          display: grid;
+          height: 500px;
+
+          grid-template-columns: 100px 1fr;
+          grid-template-rows: 200px 1fr 1fr;
+
+          /*gap: 10px;*/
+          /*grid-gap: 20px;*/
+          gap: 20px 10px;
+          /*grid-gap: 20px 10px;*/
+      }
+    </style>
+</head>
+<body>
+  <ul class="container">
+    <li class="item">1</li>
+    <li class="item">2</li>
+    <li class="item">3</li>
+    <li class="item">4</li>
+    <li class="item">5</li>
+  </ul>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML 문서</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            position: relative;
+        }
+
+        div:nth-child(1) {
+            background-color: yellow;
+        }
+
+        div:nth-child(2) {
+            background-color: cyan;
+            bottom: 50px;
+        }
+
+        div:nth-child(3) {
+            background-color: ivory;
+            bottom: 100px;
+        }
+
+        div:nth-child(4) {
+            background-color: mediumslateblue;
+            bottom: 150px;
+        }
+
+        div:nth-child(5) {
+            background-color: red;
+            bottom: 200px;
+        }
+
+        .first {
+            z-index: 4;
+        }
+        .second {
+            z-index: 3;
+        }
+        .third {
+            z-index: 2;
+        }
+        .fourth {
+            z-index: 1;
+        }
+        .fifth {
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+<div class="first">1</div>
+<div class="second">2</div>
+<div class="third">3</div>
+<div class="fourth">4</div>
+<div class="fifth">5</div>
+</body>
+</html>

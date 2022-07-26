@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'LAB디지털';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/LAB디지털.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'LAB디지털';
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    background-color: black;
+}
+
+.container {
+    width: 80%;
+    min-width: 320px;
+    max-width: 640px;
+    margin: 10px auto;
+    padding: 5px 0 15px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 16px;
+}
+
+h2 {
+    color: white;
+}
+
+h1 {
+    color: red;
+}
+
+h1 > sapn {
+    display: inline-block;
+    width: 40px;
+}
+
+button {
+    color: darkslategray;
+    background-color: lightgray;
+    font-size: 16px;
+    padding: 6px;
+    width: 100px;
+    boder: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:active {
+    color: lightgray;
+    background-color: darkslategray;
+}

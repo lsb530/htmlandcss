@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML 문서</title>
+    <style>
+        p::before {
+            content: "앞에다 추가한 텍스트 ";
+            color: red;
+            font-weight: 900;
+        }
+
+        p::after {
+            content: "뒤에다 추가한 텍스트 ";
+            color: blue;
+            font-weight: 100;
+        }
+    </style>
+</head>
+<body>
+<p>원래 쓰여 있던 내용</p>
+</body>
+</html>

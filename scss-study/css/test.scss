@@ -1,0 +1,9 @@
+//@use "base/color-variable";
+@use "base" as *;
+
+.test {
+  .wow {
+    color: $color-blue;
+    font-size: $m2-font-size;
+  }
+}
